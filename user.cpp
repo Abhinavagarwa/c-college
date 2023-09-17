@@ -10,8 +10,8 @@ using namespace std;
            void input();
            void display();
    };
-    void student::input()
-    {
+    void person::input()
+    { 
         cout<<"enter name\n";
         cin>>name;
         cout<<"enter gender\n";
@@ -19,14 +19,14 @@ using namespace std;
         cout<<"enter age\n";
         cin>>age;
     } 
-    void student::display()
+    void person::display()
     {
         cout<<"name="<<name<<"\n";
         cout<<"gender="<<gender<<"\n";
         cout<<"age="<<age<<"\n";
     }
     int main(){
-        student s;
+        person s;
         s.input();
         s.display();
         return 0;
