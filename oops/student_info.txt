@@ -1,0 +1,5 @@
+Name: John Doe
+Age: 20
+Sex (M/F): M
+Height (in meters): 1.75
+Weight (in kg): 70.5
