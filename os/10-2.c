@@ -21,7 +21,6 @@ void insertRecord() {
     if (!file) {
         file = fopen("hashed.dat", "wb+"); // Create file if it doesn't exist
     }
-
     struct Record rec, temp;
     int index, originalIndex;
 
